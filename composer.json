@@ -1,0 +1,20 @@
+{
+    "name": "wearenotmachines/similarity",
+    "description": "A package of tools to perform similary calculations on objects",
+    "type": "library",
+    "require": {
+        "phpunit/phpunit": "^5.1"
+    },
+    "authors": [
+        {
+            "name": "Alex Callard",
+            "email": "alex@wearenotmachines.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload" : {
+        "psr-4" : {
+            "WeAreNotMachines\\Similarity\\" : "src"
+        }
+    }
+}
