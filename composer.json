@@ -3,7 +3,7 @@
     "description": "A package of tools to perform similary calculations on objects",
     "type": "library",
     "require": {
-        "phpunit/phpunit": "^5.1"
+        "phpunit/phpunit": "^4.8"
     },
     "authors": [
         {
