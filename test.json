@@ -1,0 +1,47 @@
+{
+    "classifications": {
+        "medals": 6,
+        "colours": 3
+    },
+    "features": {
+        "medals": {
+            "orange": 2,
+            "teal": 4,
+            "silver": 3,
+            "gold": 5,
+            "black": 3,
+            "indigo": 2,
+            "white": 2,
+            "taupe": 2,
+            "pink": 3,
+            "yellow": 2,
+            "grey": 3,
+            "mauve": 3,
+            "brown": 2,
+            "red": 2,
+            "blue": 2,
+            "green": 2,
+            "purple": 1,
+            "violet": 2,
+            "russet": 1,
+            "lilac": 1,
+            "turquoise": 1
+        },
+        "colours": {
+            "black": 3,
+            "purple": 2,
+            "violet": 3,
+            "russet": 1,
+            "blue": 1,
+            "scarlet": 3,
+            "white": 2,
+            "yellow": 2,
+            "lilac": 1,
+            "taupe": 1,
+            "red": 1,
+            "green": 2,
+            "grey": 1,
+            "teal": 1
+        }
+    }
+}
