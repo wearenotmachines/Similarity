@@ -18,6 +18,13 @@ class NaiveBayes {
 			$this->aggregator->incrementFeature($classification, $feature);
 		}
 		$this->aggregator->incrementClassification($classification);
+		return $this;
+	}
+
+	public function trainFromArray(array $array) {
+		$key = key($array);
+		$values = $array;
+		return $this->train($key, $values[$key]);
 	}
 
 	public function getAggregatorData() {

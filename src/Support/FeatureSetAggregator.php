@@ -10,6 +10,7 @@ class FeatureSetAggregator {
 		public function __construct($data=null) {
 			if (!empty($data) && !isset($data['features'])) throw new \RuntimeException("FeatureSetAggregator must be initialised with a dataset containing an array of features - this can be empty but must be present");
 			if (!empty($data) && !isset($data['classifications'])) throw new \RuntimeException("FeatureSetAggregator must be initialised with a dataset containing an array of classifications - this can be empty but must be present");
+			if (empty($data)) $data = ["classifications" =>[],"features" =>[]];
 			$this->classifications = $data['classifications'];
 			$this->features = $data['features'];
 		}
